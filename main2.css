@@ -1,0 +1,62 @@
+/* Body header styles */
+
+body {background-color:navajowhite;
+font-family: arial, times new roman, verdana;}
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px 5px 5px 5px 5px;
+}
+body > * {outline: 1.5px solid black;
+}
+
+body > header {
+    display: block;
+    width: 100%;
+}
+
+body > header {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+body > header > nav.horizontalNavigation li {
+    width: 20%; 
+}
+
+nav.horizontalNavigation li {
+    display: block;    
+    float: left; 
+}
+
+body > Who We Are {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+body > Our Mission {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+body > Our 4 Ministries {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+body > Upcoming Events {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+body > ol {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+body > footer {
+    grid-column: 1 / -1;
+    grid-row: 5;
+}
+
